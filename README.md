@@ -7,4 +7,28 @@ Resizing.
 In order to successfully build and Run this app you need to:
 
 1.  Create a Parse Account
-2.  add your Application Id and Client Key to the parse.initialize function in the RibbitApplication.java file
+2.  Create your Application
+3.  Create a RibbitApplication.java file in:
+Ribbit / app / src / main / java / com / racecondition / ribbit / app /
+
+4.  Add the following code:
+
+```java
+package com.racecondition.ribbit.app;
+
+import android.app.Application;
+
+import com.parse.Parse;
+
+public class RibbitApplication extends Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        Parse.initialize(this, "Application ID", "Client ID");
+    }
+
+}
+```
+
+add your Parse Application Id and Client Key to the parse.initialize function in the RibbitApplication.java file
