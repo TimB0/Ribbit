@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.racecondition.ribbit.app.MainActivity" >
+
+    <item android:id="@+id/action_edit_friends"
+        android:title="@string/menu_edit_friends_label"
+        />
+
+    <item android:id="@+id/action_camera"
+        android:title="@string/menu_camera_label"
+        android:icon="@drawable/ic_action_camera"
+        android:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_logout"
+        android:title="@string/menu_logout_label"
+        />
+
+
+</menu>
