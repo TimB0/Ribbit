@@ -54,5 +54,6 @@
     <string name="success_message">Message Sent!</string>
     <string name="error_sending_message">There was an error sending your message.  Please try again.</string>
     <string name="title_activity_view_image">Ribbit</string>
+    <string name="content_desc_background">Ribbit Frog Background Image</string>
 
 </resources>

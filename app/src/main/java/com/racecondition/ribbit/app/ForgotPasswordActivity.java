@@ -1,5 +1,6 @@
 package com.racecondition.ribbit.app;
 
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,6 +27,9 @@ public class ForgotPasswordActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
         setContentView(R.layout.activity_forgot_password);
+
+        ActionBar actionBar = getActionBar();
+        actionBar.hide();
 
         mResetEmail = (EditText)findViewById(R.id.resetEmailField);
         mSubmitEmailButton = (Button)findViewById(R.id.resetPasswordButton);
