@@ -1,10 +1,10 @@
 package com.racecondition.ribbit.app;
 
 import android.app.ActionBar;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.Window;
@@ -17,7 +17,7 @@ import com.parse.ParseUser;
 import com.parse.RequestPasswordResetCallback;
 
 
-public class ForgotPasswordActivity extends ActionBarActivity {
+public class ForgotPasswordActivity extends Activity {
 
     protected EditText mResetEmail;
     protected Button mSubmitEmailButton;
