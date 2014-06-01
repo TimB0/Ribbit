@@ -10,7 +10,7 @@
     <string name="username_hint">Username (Case Sensitive)</string>
     <string name="password_hint">Password</string>
     <string name="login_button_label">Login</string>
-    <string name="sign_up_text">Sign Up!</string>
+    <string name="sign_up_text">Don\'t have an account? Sign Up!</string>
     <string name="title_activity_sign_up">Ribbit SignUp</string>
     <string name="email_hint">Email</string>
     <string name="sign_up_button_label">Sign Up</string>
@@ -55,5 +55,6 @@
     <string name="error_sending_message">There was an error sending your message.  Please try again.</string>
     <string name="title_activity_view_image">Ribbit</string>
     <string name="content_desc_background">Ribbit Frog Background Image</string>
+    <string name="subtitle">A Treehouse Project</string>
 
 </resources>
