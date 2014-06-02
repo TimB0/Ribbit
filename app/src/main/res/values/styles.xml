@@ -1,16 +1,11 @@
 <resources>
 
-    <style name="AppTheme" parent="@style/_AppTheme" />
-
-    <style name="_AppTheme" parent="android:Theme.Holo.Light">
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
         <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
-        <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
     </style>
 
-
-
-    <style name="ImageButtonAppTheme" parent="android:Widget.Holo.Light.ImageButton">
-        <item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
+    <style name="AuthBackground">
+        <item name="android:background">@drawable/background_fill</item>
     </style>
 
 </resources>
