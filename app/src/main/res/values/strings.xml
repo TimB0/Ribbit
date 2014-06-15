@@ -11,7 +11,7 @@
     <string name="password_hint">Password</string>
     <string name="login_button_label">SIGN IN</string>
     <string name="sign_up_text">Don\'t have an account? Sign Up!</string>
-    <string name="title_activity_sign_up">Ribbit SignUp</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="email_hint">Email</string>
     <string name="sign_up_button_label">Sign Up</string>
     <string name="signup_error_message">Please make sure you enter a username, password and email address!</string>
