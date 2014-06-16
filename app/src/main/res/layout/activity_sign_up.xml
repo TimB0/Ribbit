@@ -28,33 +28,52 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/username_hint" >
-
             <requestFocus />
         </EditText>
 
         <EditText
             android:id="@+id/passwordField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
+            style="@style/AuthEditText"
             android:hint="@string/password_hint"
             android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/emailField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
+            style="@style/AuthEditText"
             android:hint="@string/email_hint"
             android:inputType="textEmailAddress" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/signupButton"
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/buttonDivider"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextLayout"
-        android:text="@string/sign_up_button_label" />
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/button_divider"
+        android:contentDescription="@string/content_desc_button_divider" />
+
+    <Button
+        android:id="@+id/signupButton"
+        style="@style/AuthButton"
+        android:text="@string/sign_up_button_label"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextLayout"
+        android:layout_toLeftOf="@id/buttonDivider"
+        android:layout_marginRight="0dp"
+        />
+
+    <Button
+        android:id="@+id/cancelButton"
+        style="@style/AuthButton"
+        android:text="@string/cancel_button_label"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editTextLayout"
+        android:layout_toRightOf="@id/buttonDivider"
+        android:layout_marginLeft="0dp"
+
+
+        />
 
 </RelativeLayout>
 

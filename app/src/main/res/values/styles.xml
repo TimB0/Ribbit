@@ -52,4 +52,24 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_below">@id/subtitle</item>
     </style>
+
+    <style name="AuthEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:textSize">17sp</item>
+
+    </style>
+
+    <style name="AuthButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:background">@drawable/button_custom</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
 </resources>
