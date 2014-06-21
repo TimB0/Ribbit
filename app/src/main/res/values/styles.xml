@@ -29,6 +29,11 @@
         <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_ribbit</item>
         <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Ribbit</item>
         <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
+        <item name="android:actionOverflowButtonStyle">@style/Theme.Ribbit.Overflow</item>
+    </style>
+
+    <style name="Theme.Ribbit.Overflow" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow</item>
     </style>
 
     <style name="ActionBar.Solid.Ribbit" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
@@ -36,7 +41,15 @@
         <item name="android:backgroundStacked">@drawable/ab_stacked_solid_ribbit</item>
         <item name="android:backgroundSplit">@drawable/ab_bottom_solid_ribbit</item>
         <item name="android:progressBarStyle">@style/ProgressBar.Ribbit</item>
+        <item name="android:titleTextStyle">@style/ActionBar.Solid.Ribbit.TitleTextStyle</item>
     </style>
+
+    <style name="ActionBar.Solid.Ribbit.TitleTextStyle"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/text_color</item>
+
+    </style>
+
 
     <style name="ActionBar.Transparent.Ribbit" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">@drawable/ab_transparent_ribbit</item>
