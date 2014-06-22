@@ -1,4 +1,4 @@
-package com.racecondition.ribbit.app;
+package com.racecondition.ribbit.app.com.racecondition.ribbit.app.ui;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -15,6 +15,9 @@ import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
+import com.racecondition.ribbit.app.com.racecondition.ribbit.app.adapters.MessageAdapter;
+import com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils.ParseConstants;
+import com.racecondition.ribbit.app.R;
 
 import java.util.ArrayList;
 import java.util.List;

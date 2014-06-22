@@ -1,10 +1,11 @@
-package com.racecondition.ribbit.app;
+package com.racecondition.ribbit.app.com.racecondition.ribbit.app.ui;
 
 import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.racecondition.ribbit.app.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.Timer;

@@ -1,4 +1,4 @@
-package com.racecondition.ribbit.app;
+package com.racecondition.ribbit.app.com.racecondition.ribbit.app.adapters;
 
 
 import android.content.Context;
@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.parse.ParseObject;
+import com.racecondition.ribbit.app.R;
+import com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils.ParseConstants;
 
 import java.util.List;
 

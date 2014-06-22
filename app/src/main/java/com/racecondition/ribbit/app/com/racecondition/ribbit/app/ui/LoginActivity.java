@@ -1,4 +1,4 @@
-package com.racecondition.ribbit.app;
+package com.racecondition.ribbit.app.com.racecondition.ribbit.app.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
+import com.racecondition.ribbit.app.R;
 
 
 public class LoginActivity extends Activity {

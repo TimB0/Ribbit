@@ -1,4 +1,4 @@
-package com.racecondition.ribbit.app;
+package com.racecondition.ribbit.app.com.racecondition.ribbit.app.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.RequestPasswordResetCallback;
+import com.racecondition.ribbit.app.R;
 
 
 public class ForgotPasswordActivity extends Activity {
@@ -33,6 +34,7 @@ public class ForgotPasswordActivity extends Activity {
 
         mResetEmail = (EditText)findViewById(R.id.resetEmailField);
         mSubmitEmailButton = (Button)findViewById(R.id.resetPasswordButton);
+
         mSubmitEmailButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

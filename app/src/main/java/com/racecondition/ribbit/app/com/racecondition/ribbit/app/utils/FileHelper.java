@@ -1,4 +1,4 @@
-package com.racecondition.ribbit.app;
+package com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
