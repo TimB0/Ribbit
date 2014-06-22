@@ -30,6 +30,12 @@
         <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Ribbit</item>
         <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
         <item name="android:actionOverflowButtonStyle">@style/Theme.Ribbit.Overflow</item>
+        <item name="android:listViewStyle">@style/Theme.Ribbit.LightPurpleBackground</item>
+        <item name="android:gridViewStyle">@style/Theme.Ribbit.LightPurpleBackground</item>
+    </style>
+
+    <style name="Theme.Ribbit.LightPurpleBackground">
+        <item name="android:background">@color/light_purple_background</item>
     </style>
 
     <style name="Theme.Ribbit.Overflow" parent="@android:style/Widget.ActionButton.Overflow">

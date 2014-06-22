@@ -11,6 +11,8 @@
         android:id="@android:id/list"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
+        android:paddingBottom="@dimen/inbox_vertical_margin"
+        android:clipToPadding="false"
          />
     
     <TextView
