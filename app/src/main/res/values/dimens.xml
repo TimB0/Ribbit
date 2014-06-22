@@ -8,6 +8,8 @@
     <dimen name="login_vertical_padding">10dp</dimen>
     <dimen name="inbox_horizontal_margin">8dp</dimen>
     <dimen name="inbox_vertical_margin">8dp</dimen>
+    <dimen name="message_vertical_padding">8dp</dimen>
+
 
 
 </resources>

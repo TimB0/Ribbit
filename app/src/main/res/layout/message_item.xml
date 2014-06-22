@@ -17,12 +17,11 @@
             android:id="@+id/messageIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:paddingBottom="@dimen/message_list_item_vertical_margin"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/message_list_item_vertical_margin"
-            android:src="@drawable/ic_action_picture"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:src="@drawable/ic_picture"
             android:contentDescription="@string/content_desc_message_icon" />
 
         <TextView
@@ -30,9 +29,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/messageIcon"
+            android:layout_toLeftOf="@+id/messageIcon"
+            android:layout_alignParentLeft="true"
+            android:text="Test Name"
+            android:paddingTop="@dimen/message_vertical_padding"
+            android:paddingBottom="@dimen/message_vertical_padding"
             android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp" />
     </RelativeLayout>
 
 </LinearLayout>
