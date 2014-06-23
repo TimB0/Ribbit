@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,9 +16,9 @@ import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
+import com.racecondition.ribbit.app.R;
 import com.racecondition.ribbit.app.com.racecondition.ribbit.app.adapters.MessageAdapter;
 import com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils.ParseConstants;
-import com.racecondition.ribbit.app.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,12 +26,23 @@ import java.util.List;
 public class InboxFragment extends ListFragment {
 
     protected List<ParseObject> mMessages;
+    protected SwipeRefreshLayout mSwipeRefreshLayout;
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_inbox, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_inbox,
+                container, false);
+
+        mSwipeRefreshLayout = (SwipeRefreshLayout)rootView.findViewById(R.id.swipeRefreshLayout);
+        mSwipeRefreshLayout.setOnRefreshListener(mOnRefreshListener);
+        mSwipeRefreshLayout.setColorScheme(
+                R.color.swipeRefresh1,
+                R.color.swipeRefresh2,
+                R.color.swipeRefresh3,
+                R.color.swipeRefresh4);
+
 
         return rootView;
     }
@@ -41,6 +53,10 @@ public class InboxFragment extends ListFragment {
 
         getActivity().setProgressBarIndeterminateVisibility(true);
 
+        retrieveMessages();
+    }
+
+    private void retrieveMessages() {
         ParseQuery<ParseObject> query = new ParseQuery<ParseObject>(ParseConstants.CLASS_MESSAGES);
         query.whereEqualTo(ParseConstants.KEY_RECIPENT_IDS, ParseUser.getCurrentUser().getObjectId());
         query.addDescendingOrder(ParseConstants.KEY_CREATED_AT);
@@ -48,6 +64,10 @@ public class InboxFragment extends ListFragment {
             @Override
             public void done(List<ParseObject> messages, ParseException e) {
                 getActivity().setProgressBarIndeterminateVisibility(false);
+
+                if (mSwipeRefreshLayout.isRefreshing()) {
+                    mSwipeRefreshLayout.setRefreshing(false);
+                }
 
                 if (e == null) {
                     // We found messages
@@ -117,6 +137,17 @@ public class InboxFragment extends ListFragment {
         }
 
     }
+
+
+
+    protected SwipeRefreshLayout.OnRefreshListener mOnRefreshListener = new SwipeRefreshLayout.OnRefreshListener() {
+        @Override
+        public void onRefresh() {
+            retrieveMessages();
+
+
+        }
+    };
 
 
 }
