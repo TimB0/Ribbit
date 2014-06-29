@@ -6,6 +6,17 @@
     android:background="@android:color/white">
 
 
+    <ImageView
+        android:id="@+id/userImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/avatar_empty"
+        android:contentDescription="@string/content_desc_user_avatar"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+         />
+
     <TextView
         android:id="@+id/nameLabel"
         android:layout_width="wrap_content"
@@ -13,6 +24,6 @@
         android:maxLines="2"
         android:padding="4dp"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" />
+        android:layout_below="@+id/userImageView" />
 
 </RelativeLayout>
