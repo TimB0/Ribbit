@@ -3,19 +3,24 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@android:color/white">
+    android:background="@android:color/white"  >
 
 
     <ImageView
         android:id="@+id/userImageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/avatar_empty"
+        style="@style/GridImage"
         android:contentDescription="@string/content_desc_user_avatar"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
-         />
+        android:src="@drawable/avatar_empty"
+        />
+
+    <ImageView
+        android:id="@+id/checkImageView"
+        style="@style/GridImage"
+        android:contentDescription="@string/content_desc_user_checkmark"
+        android:src="@drawable/avatar_selected"
+        android:visibility="invisible"
+        />
+
 
     <TextView
         android:id="@+id/nameLabel"
@@ -24,6 +29,6 @@
         android:maxLines="2"
         android:padding="4dp"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/userImageView" />
+        android:layout_below="@+id/userImageView"  />
 
 </RelativeLayout>

@@ -22,9 +22,9 @@ import com.parse.ParseQuery;
 import com.parse.ParseRelation;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.racecondition.ribbit.app.R;
 import com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils.FileHelper;
 import com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils.ParseConstants;
-import com.racecondition.ribbit.app.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +45,7 @@ public class RecipientsActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
-        setContentView(R.layout.activity_recipients);
+        setContentView(R.layout.user_grid);
         // Show the Up button in the action bar.
         setupActionBar();
 
