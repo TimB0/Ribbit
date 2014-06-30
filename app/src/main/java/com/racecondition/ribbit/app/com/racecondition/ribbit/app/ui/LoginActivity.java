@@ -15,6 +15,7 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.racecondition.ribbit.app.R;
+import com.racecondition.ribbit.app.RibbitApplication;
 
 
 public class LoginActivity extends Activity {
@@ -79,11 +80,13 @@ public class LoginActivity extends Activity {
                     setProgressBarIndeterminateVisibility(true);
                     ParseUser.logInInBackground(username, password, new LogInCallback() {
                         @Override
-                        public void done(ParseUser parseUser, ParseException e) {
+                        public void done(ParseUser user, ParseException e) {
                             setProgressBarIndeterminateVisibility(false);
 
                             if (e == null) {
                                 // Login Success!
+                                RibbitApplication.updateParseInstallation(user);
+
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
