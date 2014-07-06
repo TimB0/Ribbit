@@ -61,6 +61,7 @@
     <string name="content_desc_message_icon">Message Icon</string>
     <string name="content_desc_user_avatar">User Avatar</string>
     <string name="content_desc_user_checkmark">User checkmark</string>
+    <string name="push_message">You have a new Ribbit message from %s!</string>
 
 
 </resources>

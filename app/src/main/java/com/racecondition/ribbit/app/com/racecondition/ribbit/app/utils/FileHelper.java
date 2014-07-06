@@ -17,7 +17,7 @@ public class FileHelper {
 	
 	public static final String TAG = FileHelper.class.getSimpleName();
 
-    public static final int SHORT_SIDE_TARGET = 1280; // changed from 1280 for Nexus 5
+    public static final int SHORT_SIDE_TARGET = 975; // changed from 1280 for Nexus 5
 	
 	public static byte[] getByteArrayFromFile(Context context, Uri uri) {
 		byte[] fileBytes = null;
