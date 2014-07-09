@@ -1,4 +1,4 @@
-package com.racecondition.ribbit.app.com.racecondition.ribbit.app.ui;
+package com.racecondition.ribbitsdm.app;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -19,9 +19,6 @@ import android.widget.Toast;
 
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
-import com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils.ParseConstants;
-import com.racecondition.ribbit.app.R;
-import com.racecondition.ribbit.app.com.racecondition.ribbit.app.adapters.SectionsPagerAdapter;
 
 import java.io.File;
 import java.io.FileNotFoundException;

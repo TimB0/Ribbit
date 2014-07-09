@@ -1,4 +1,4 @@
-package com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils;
+package com.racecondition.ribbitsdm.app;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

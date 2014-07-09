@@ -1,4 +1,4 @@
-package com.racecondition.ribbit.app.com.racecondition.ribbit.app.ui;
+package com.racecondition.ribbitsdm.app;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -27,10 +27,6 @@ import com.parse.ParseQuery;
 import com.parse.ParseRelation;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
-import com.racecondition.ribbit.app.R;
-import com.racecondition.ribbit.app.com.racecondition.ribbit.app.adapters.UserAdapter;
-import com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils.FileHelper;
-import com.racecondition.ribbit.app.com.racecondition.ribbit.app.utils.ParseConstants;
 
 import java.util.ArrayList;
 import java.util.List;

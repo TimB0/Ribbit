@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.racecondition.ribbit.app.com.racecondition.ribbit.app.ui.MainActivity" >
+    tools:context="com.racecondition.ribbitsdm.app.MainActivity" >
 
     <item android:id="@+id/action_edit_friends"
         android:title="@string/menu_edit_friends_label"

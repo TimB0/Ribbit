@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.racecondition.ribbit.app.com.racecondition.ribbit.app.ui.MainActivity$PlaceholderFragment">
+    tools:context="com.racecondition.ribbitsdm.app.MainActivity$PlaceholderFragment">
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefreshLayout"

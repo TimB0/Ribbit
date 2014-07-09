@@ -1,11 +1,10 @@
-package com.racecondition.ribbit.app.com.racecondition.ribbit.app.ui;
+package com.racecondition.ribbitsdm.app;
 
 import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import com.racecondition.ribbit.app.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.Timer;
@@ -27,7 +26,7 @@ public class ViewImageActivity extends Activity {
 
         Picasso.with(this).load(imageUri.toString()).into(imageView);
 
-        // Display image for 10 seconds then return to InboxFragment
+        // Display image for 10 seconds then return to com.racecondition.ribbitsdm.app.InboxFragment
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
