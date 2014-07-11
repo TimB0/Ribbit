@@ -1,4 +1,4 @@
-package com.racecondition.ribbitsdm.app;
+package com.racecondition.ribbitsdm.app.utils;
 
 public final class ParseConstants {
     // Class name

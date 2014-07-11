@@ -1,9 +1,10 @@
-package com.racecondition.ribbitsdm.app;
+package com.racecondition.ribbitsdm.app.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.util.Log;
+
 import org.apache.commons.io.IOUtils;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -17,7 +18,7 @@ public class FileHelper {
 	
 	public static final String TAG = FileHelper.class.getSimpleName();
 
-    public static final int SHORT_SIDE_TARGET = 975; // changed from 1280 for Nexus 5
+    public static final int SHORT_SIDE_TARGET = 200; // changed from 1280 for Nexus 5
 	
 	public static byte[] getByteArrayFromFile(Context context, Uri uri) {
 		byte[] fileBytes = null;

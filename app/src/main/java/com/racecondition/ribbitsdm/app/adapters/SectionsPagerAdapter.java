@@ -1,9 +1,13 @@
-package com.racecondition.ribbitsdm.app;
+package com.racecondition.ribbitsdm.app.adapters;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.racecondition.ribbitsdm.app.ui.InboxFragment;
+import com.racecondition.ribbitsdm.app.R;
+import com.racecondition.ribbitsdm.app.ui.FriendsFragment;
 
 import java.util.Locale;
 
