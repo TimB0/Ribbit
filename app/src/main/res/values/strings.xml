@@ -62,6 +62,11 @@
     <string name="content_desc_user_avatar">User Avatar</string>
     <string name="content_desc_user_checkmark">User checkmark</string>
     <string name="push_message">You have a new Ribbit message from %s!</string>
+    <string name="login_title">Ribbit Title</string>
+    <string name="login_subtitle">Ribbit Subtitle</string>
+    <string name="login_signin_button">Ribbit SignIn Button</string>
+    <string name="signup_link">Ribbit Signup Link</string>
+    <string name="forgot_password_link">Ribbit Forgot PW link</string>
 
 
 </resources>

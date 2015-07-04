@@ -3,7 +3,7 @@
     style="@style/AuthBackground"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.racecondition.ribbitsdm.app.ui.LoginActivity" >
+    tools:context="com.racecondition.ribbitsdmp.app.ui.LoginActivity" >
 
     <ImageView
         android:id="@+id/backgroundImage"
@@ -12,11 +12,13 @@
 
     <TextView
         android:id="@+id/title"
-        style="@style/AuthTitle" />
+        style="@style/AuthTitle"
+        android:contentDescription="@string/login_title"/>
 
     <TextView
         android:id="@+id/subtitle"
-        style="@style/AuthTitle.AuthSubTitle" />
+        style="@style/AuthTitle.AuthSubTitle"
+        android:contentDescription="@string/login_subtitle"/>
 
     <LinearLayout
         android:id="@+id/editTextLayout"
@@ -42,7 +44,8 @@
         style="@style/AuthButton"
         android:text="@string/login_button_label"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/editTextLayout" />
+        android:layout_below="@+id/editTextLayout"
+        android:contentDescription="@string/login_signin_button"/>
 
     <TextView
         android:id="@+id/signUpText"
@@ -52,7 +55,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
         android:text="@string/sign_up_text"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:contentDescription="@string/signup_link"/>
 
     <TextView
         android:id="@+id/forgotPasswordText"
@@ -63,6 +67,6 @@
         android:layout_below="@+id/signUpText"
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/white"
-        />
+        android:contentDescription="@string/forgot_password_link"/>
 
 </RelativeLayout>
