@@ -20,7 +20,7 @@ android {
 
 dependencies {
     compile fileTree('src/main/libs')
-    compile files('src/main/libs/Parse-1.5.1.jar')
+    compile files('src/main/libs/Parse-1.9.4.jar')
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.google.android.gms:play-services:7.5.0'
