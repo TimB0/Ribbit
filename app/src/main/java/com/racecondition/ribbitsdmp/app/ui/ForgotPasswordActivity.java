@@ -15,7 +15,7 @@ import android.widget.Toast;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.RequestPasswordResetCallback;
-import com.racecondition.ribbitsdm.app.R;
+import com.racecondition.ribbitsdmp.app.R;
 
 
 public class ForgotPasswordActivity extends Activity {
