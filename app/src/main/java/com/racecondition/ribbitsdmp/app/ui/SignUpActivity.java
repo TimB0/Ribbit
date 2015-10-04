@@ -1,4 +1,4 @@
-package com.racecondition.ribbitsdm.app.ui;
+package com.racecondition.ribbitsdmp.app.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;

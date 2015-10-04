@@ -1,4 +1,4 @@
-package com.racecondition.ribbitsdm.app.utils;
+package com.racecondition.ribbitsdmp.app.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
