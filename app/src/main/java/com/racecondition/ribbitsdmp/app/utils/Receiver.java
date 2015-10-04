@@ -1,10 +1,10 @@
-package com.racecondition.ribbitsdm.app.utils;
+package com.racecondition.ribbitsdmp.app.utils;
 
 import android.content.Context;
 import android.content.Intent;
 
 import com.parse.ParsePushBroadcastReceiver;
-import com.racecondition.ribbitsdm.app.ui.MainActivity;
+import com.racecondition.ribbitsdmp.app.ui.MainActivity;
 
 /**
  * Created by tboland on 8/3/15.

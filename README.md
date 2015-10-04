@@ -27,7 +27,7 @@ public class RibbitApplication extends Application {
         super.onCreate();
         Parse.initialize(this, "Application ID", "Client ID");
 
-        PushService.setDefaultPushCallback(this, com.racecondition.ribbitsdm.app.ui.MainActivity.class);
+        PushService.setDefaultPushCallback(this, com.racecondition.ribbitsdmp.app.ui.MainActivity.class);
         ParseInstallation.getCurrentInstallation().saveInBackground();
     }
 

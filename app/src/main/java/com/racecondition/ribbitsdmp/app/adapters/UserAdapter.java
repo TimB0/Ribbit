@@ -1,4 +1,4 @@
-package com.racecondition.ribbitsdm.app.adapters;
+package com.racecondition.ribbitsdmp.app.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.parse.ParseUser;
-import com.racecondition.ribbitsdm.app.R;
-import com.racecondition.ribbitsdm.app.utils.MD5Util;
+import com.racecondition.ribbitsdmp.app.R;
+import com.racecondition.ribbitsdmp.app.utils.MD5Util;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

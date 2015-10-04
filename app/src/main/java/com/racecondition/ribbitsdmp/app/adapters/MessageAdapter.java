@@ -1,4 +1,4 @@
-package com.racecondition.ribbitsdm.app.adapters;
+package com.racecondition.ribbitsdmp.app.adapters;
 
 import android.content.Context;
 import android.text.format.DateUtils;
@@ -10,8 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.parse.ParseObject;
-import com.racecondition.ribbitsdm.app.utils.ParseConstants;
-import com.racecondition.ribbitsdm.app.R;
+import com.racecondition.ribbitsdmp.app.utils.ParseConstants;
+import com.racecondition.ribbitsdmp.app.R;
 
 import java.util.Date;
 import java.util.List;
