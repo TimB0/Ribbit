@@ -1,4 +1,4 @@
-package com.racecondition.ribbitsdmp.app.ui;
+package com.racecondition.ribbitsdm.app.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -13,7 +13,7 @@ import android.widget.EditText;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
-import com.racecondition.ribbitsdmp.app.R;
+import com.racecondition.ribbitsdm.app.R;
 
 
 public class SignUpActivity extends Activity {
@@ -82,7 +82,7 @@ public class SignUpActivity extends Activity {
 
                             if (e == null) {
                                 // Sign Up Success!
-                                com.racecondition.ribbitsdmp.app.RibbitApplication.updateParseInstallation(
+                                com.racecondition.ribbitsdm.app.RibbitApplication.updateParseInstallation(
                                         ParseUser.getCurrentUser());
 
 

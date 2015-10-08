@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.racecondition.ribbitsdmp.app" >
+    package="com.racecondition.ribbitsdm.app" >
 
 <!--    <uses-sdk
         tools:node="replace" />-->
@@ -19,9 +19,9 @@
         android:required="true" />
 
     <permission
-        android:name="com.racecondition.ribbitsdmp.app.permission.C2D_MESSAGE"
+        android:name="com.racecondition.ribbitsdm.app.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
-    <uses-permission android:name="com.racecondition.ribbitsdmp.app.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.racecondition.ribbitsdm.app.permission.C2D_MESSAGE" />
 
     <application
         android:name="RibbitApplication"
@@ -51,7 +51,7 @@
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.racecondition.ribbitsdmp.app.ui.LoginActivity" />
+                android:value="com.racecondition.ribbitsdm.app.ui.LoginActivity" />
         </activity>
         <activity
             android:name=".ui.ForgotPasswordActivity"
@@ -65,7 +65,7 @@
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.racecondition.ribbitsdmp.app.ui.MainActivity" />
+                android:value="com.racecondition.ribbitsdm.app.ui.MainActivity" />
         </activity>
         <activity
             android:name=".ui.RecipientsActivity"
@@ -74,7 +74,7 @@
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.racecondition.ribbitsdmp.app.ui.MainActivity" />
+                android:value="com.racecondition.ribbitsdm.app.ui.MainActivity" />
         </activity>
         <activity
             android:name=".ui.ViewImageActivity"
@@ -83,7 +83,7 @@
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.racecondition.ribbitsdmp.app.ui.MainActivity" />
+                android:value="com.racecondition.ribbitsdm.app.ui.MainActivity" />
         </activity>
 
         <service android:name="com.parse.PushService" />
@@ -100,10 +100,10 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="com.racecondition.ribbitsdmp.app" />
+                <category android:name="com.racecondition.ribbitsdm.app" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.racecondition.ribbitsdmp.app.utils.Receiver"
+        <receiver android:name="com.racecondition.ribbitsdm.app.utils.Receiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />

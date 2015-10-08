@@ -1,4 +1,4 @@
-package com.racecondition.ribbitsdmp.app.ui;
+package com.racecondition.ribbitsdm.app.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
-import com.racecondition.ribbitsdmp.app.R;
+import com.racecondition.ribbitsdm.app.R;
 
 
 public class LoginActivity extends Activity {
@@ -84,7 +84,7 @@ public class LoginActivity extends Activity {
 
                             if (e == null) {
                                 // Login Success!
-                                com.racecondition.ribbitsdmp.app.RibbitApplication.updateParseInstallation(user);
+                                com.racecondition.ribbitsdm.app.RibbitApplication.updateParseInstallation(user);
 
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

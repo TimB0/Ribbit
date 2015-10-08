@@ -1,4 +1,4 @@
-package com.racecondition.ribbitsdmp.app.ui;
+package com.racecondition.ribbitsdm.app.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -15,7 +15,7 @@ import android.widget.Toast;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.RequestPasswordResetCallback;
-import com.racecondition.ribbitsdmp.app.R;
+import com.racecondition.ribbitsdm.app.R;
 
 
 public class ForgotPasswordActivity extends Activity {
