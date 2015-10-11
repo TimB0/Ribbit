@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-9364461da35b5055b031cdd0e871610ec01488a7.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-8c7485ec00734406a31afe29bdc242fb84cade5c.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-6d67a319ab070189aa3e4238745d91f59ae6bc31.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/src/main/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/commons-io-2.4-6b53fef2dde47684337df6777c6606c7bc6be907.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-5d7936567229c0f267e1371f076add5cf2681eef.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/src/main/libs/picasso-2.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/picasso-2.2.0-0d02d651d271e73f973fc3178e6c867a4dbc6d61.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-2f14cfc99bef65b6afafef5d1243b5e3caf799cc.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-07dfe132d8c7dd1eba6759415cbf119d2eb8aef5.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-94386f8ca791d4e32a10ec7491f2209818daf80a.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-3a5dcb5638054a02c6f591948907bf875d959cab.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-bf9792d8f8f94352ef5dcfae2c0f6f97444cc241.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/src/main/libs/Parse-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="56c22930b5d4f77015b6a40c7f14103d3e101001">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/Parse-1.9.4-ba8eb0c7eae2fd63195cfa70814169f4112f2f23.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-996a99e40d0bc0a025055675d34a94e3cb27f40a.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-e75bc43da58bdcf18fffad04acada1276867c1cf.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-68ff175b66e2d6e867a3c9b7b24ce16b44f0753f.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-ef0a33ec4f3953232bf3b0fb2aede54698aa04da.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/src/main/libs/picasso-2.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="74137f8d9aac26dd9463efe32271f2be8d41cda9">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/picasso-2.2.0-0d02d651d271e73f973fc3178e6c867a4dbc6d61.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-ac6d1c619fcac2f12a1bc342564ee2b2fd132757.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-d08a112beb1bb239f993354cda2870c90b750895.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-e2c760fe48bb8a04eec5637df4203831d01df4dc.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-0fcd6ac1272687d9b3a7a6827f76c7a3ce94e0a7.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-d760127382324bf12174592d24a8492e14ef9746.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-5e1619394dbd36475c40b66a6fc3bde1579a3c97.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-a8012ba9878daa9c1690c9d9cc3a54ad8aeae3bd.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-31db9ac22b4cff370f033e062ccdc5810fdba535.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-71a36853b6959ae1d3334631d90b467a0c22f530.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/src/main/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-3ddd1d9b5aa62bcabfb0180512266c28b1663687.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-57dda7e5c88be8c33b261643b4f62bf3d07d7f15.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-fe72bbf3852df5d1d935c95d1aef9c579800be0c.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/src/main/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/commons-io-2.4-6b53fef2dde47684337df6777c6606c7bc6be907.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-d97f7b47baefa85be19821221c8691256c59fee5.jar" />
+    </item>
+    <item
+        jar="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/tboland/Dropbox/MoFo/Ribbit/app/build/intermediates/pre-dexed/debug/classes-8f0885a75bd3c1c1a21c0750c3a1a045d9df6bad.jar" />
+    </item>
+
+</items>
