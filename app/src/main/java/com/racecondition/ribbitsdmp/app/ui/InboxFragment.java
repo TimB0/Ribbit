@@ -17,7 +17,7 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.racecondition.ribbitsdmp.app.utils.ParseConstants;
-import com.racecondition.ribbitsdm.app.R;
+import com.racecondition.ribbitsdmp.app.R;
 import com.racecondition.ribbitsdmp.app.adapters.MessageAdapter;
 
 import java.util.ArrayList;

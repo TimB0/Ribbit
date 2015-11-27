@@ -5,7 +5,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import com.racecondition.ribbitsdm.app.R;
+import com.racecondition.ribbitsdmp.app.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.Timer;

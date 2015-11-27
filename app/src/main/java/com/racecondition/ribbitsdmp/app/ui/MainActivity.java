@@ -20,7 +20,7 @@ import android.widget.Toast;
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
 import com.racecondition.ribbitsdmp.app.utils.ParseConstants;
-import com.racecondition.ribbitsdm.app.R;
+import com.racecondition.ribbitsdmp.app.R;
 import com.racecondition.ribbitsdmp.app.adapters.SectionsPagerAdapter;
 
 import java.io.File;

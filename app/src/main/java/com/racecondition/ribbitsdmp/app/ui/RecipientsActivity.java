@@ -27,7 +27,7 @@ import com.parse.ParseQuery;
 import com.parse.ParseRelation;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
-import com.racecondition.ribbitsdm.app.R;
+import com.racecondition.ribbitsdmp.app.R;
 import com.racecondition.ribbitsdmp.app.adapters.UserAdapter;
 import com.racecondition.ribbitsdmp.app.utils.FileHelper;
 import com.racecondition.ribbitsdmp.app.utils.ParseConstants;
