@@ -11,7 +11,7 @@
     <dimen name="message_vertical_padding">8dp</dimen>
     <dimen name="user_grid_spacing">8dp</dimen>
 
-
+    <dimen name="appbar_padding_top">8dp</dimen>
 
 
 </resources>
