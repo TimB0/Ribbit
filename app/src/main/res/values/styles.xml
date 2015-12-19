@@ -19,7 +19,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="Theme.Ribbit" parent="@android:style/Theme.Holo.Light">
+    <style name="Theme.Ribbit" parent="Theme.AppCompat.Light">    // android:style/Theme.Holo.Light
         <item name="android:actionBarItemBackground">@drawable/selectable_background_ribbit</item>
         <item name="android:popupMenuStyle">@style/PopupMenu.Ribbit</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView.Ribbit</item>
@@ -176,7 +176,7 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="Theme.Ribbit.NoActionBar">
+    <style name="Theme.Ribbit.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

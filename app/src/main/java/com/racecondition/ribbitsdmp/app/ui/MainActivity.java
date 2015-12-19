@@ -20,7 +20,7 @@ import android.widget.Toast;
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
 import com.racecondition.ribbitsdmp.app.R;
-import com.racecondition.ribbitsdmp.app.adapters.SectionsPagerAdapter;
+import com.racecondition.ribbitsdmp.app.adapters.ViewPagerAdapter;
 import com.racecondition.ribbitsdmp.app.utils.ParseConstants;
 
 import java.io.File;
@@ -158,25 +158,15 @@ public class MainActivity extends AppCompatActivity {
             };
 
 
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
-     * fragments for each of the sections. We use a
-     * {@link android.support.v4.app.FragmentPagerAdapter} derivative, which will keep every
-     * loaded fragment in memory. If this becomes too memory intensive, it
-     * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
-    SectionsPagerAdapter mSectionsPagerAdapter;
-
-    /**
-     * The {@link ViewPager} that will host the section contents.
-     */
+    ViewPagerAdapter mViewPagerAdapter;
     ViewPager mViewPager;
+    Toolbar toolbar;
+    TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
@@ -188,30 +178,16 @@ public class MainActivity extends AppCompatActivity {
             Log.i(TAG, currentUser.getUsername());
         }
 
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-        /**
-         *
-         * Old ActionBar Code
-         *
-         * // Set up the action bar.
-         *
-        * final ActionBar actionBar = getActionBar();
-        * actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-         * */
-
-        // Create the adapter that will return a fragment for each of the three
-        // primary sections of the activity.
-        mSectionsPagerAdapter = new SectionsPagerAdapter(this,
-                getSupportFragmentManager());
-
-        // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.pager);
-        mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        final TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        mViewPagerAdapter = new ViewPagerAdapter(this,
+                getSupportFragmentManager());
+        mViewPager.setAdapter(mViewPagerAdapter);
+
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
 
@@ -242,14 +218,12 @@ public class MainActivity extends AppCompatActivity {
 
 
         // For each of the sections in the app, add a tab to the action bar.
-        for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
+        for (int i = 0; i < mViewPagerAdapter.getCount(); i++) {
             // Create a tab with text corresponding to the page title defined by
             // the adapter. Also specify this Activity object, which implements
             // the TabListener interface, as the callback (listener) for when
             // this tab is selected.
-            tabLayout.addTab(tabLayout.newTab()
-                    .setContentDescription(mSectionsPagerAdapter.getPageTitle(i))
-                    .setIcon(mSectionsPagerAdapter.getIcon(i)));
+            tabLayout.addTab(tabLayout.newTab().setIcon(mViewPagerAdapter.getIcon(i)));
                     //.setTabListener(this));   // used by action bar
         }
 
