@@ -182,51 +182,25 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         mViewPager = (ViewPager) findViewById(R.id.pager);
-
-        mViewPagerAdapter = new ViewPagerAdapter(this,
-                getSupportFragmentManager());
-        mViewPager.setAdapter(mViewPagerAdapter);
+        setupViewPager();
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
+        setupTabIcons();
 
+    }
 
-        // When swiping between different sections, select the corresponding
-        // tab. We can also use ActionBar.Tab#select() to do this if we have
-        // a reference to the Tab.
-        mViewPager
-                .addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-
-
-        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                // When the given tab is selected, switch to the corresponding page in
-                // the ViewPager.
-                mViewPager.setCurrentItem(tab.getPosition());
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });
-
-
-        // For each of the sections in the app, add a tab to the action bar.
+    private void setupTabIcons() {
         for (int i = 0; i < mViewPagerAdapter.getCount(); i++) {
-            // Create a tab with text corresponding to the page title defined by
-            // the adapter. Also specify this Activity object, which implements
-            // the TabListener interface, as the callback (listener) for when
-            // this tab is selected.
-            tabLayout.addTab(tabLayout.newTab().setIcon(mViewPagerAdapter.getIcon(i)));
-                    //.setTabListener(this));   // used by action bar
+            //tabLayout.addTab(tabLayout.newTab().setIcon(mViewPagerAdapter.getIcon(i)));
+            tabLayout.getTabAt(i).setIcon(mViewPagerAdapter.getIcon(i));
         }
+    }
 
+    private void setupViewPager() {
+        mViewPagerAdapter = new ViewPagerAdapter(this,
+                getSupportFragmentManager());
+        mViewPager.setAdapter(mViewPagerAdapter);
     }
 
 
