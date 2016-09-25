@@ -1,1 +1,2 @@
-include ':app'
+include ':Ribbit'
+project(':Ribbit').projectDir = new File('app')

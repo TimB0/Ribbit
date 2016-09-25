@@ -23,6 +23,17 @@ android {
             buildConfigField "boolean", "LOGGING_ENABLED", "true"
         }
     }
+
+    productFlavors {
+        // dev version
+        dev {
+            applicationId = "com.racecondition.ribbitsdmp.dev"
+        }
+        // production version
+        production {
+            applicationId = "com.racecondition.ribbitsdmp.app"
+        }
+    }
 }
 
 dependencies {
